@@ -19,7 +19,7 @@ def init_cli(args):
         "-e",
         "--euler",
         action="store_true",
-        help="Output the orientation in Euler angles.",
+        help="Output the orientation in Euler angles [degree].",
     )
     parser.add_argument("-v", "--version", action="version", version="%(prog)s 0.1.0")
 
